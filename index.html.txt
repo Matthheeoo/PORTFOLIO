@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mathéo Colombel</title>
+    <title>Mathéo Colombel - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header (Navigation) -->
     <header>
         <nav>
             <ul>
@@ -17,46 +18,69 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="hero">
-            <div class="hero-content">
-                <h1>Mathéo Colombel</h1>
-                <p>Sergent-Chef & Ingénieur Projet</p>
-            </div>
-        </section>
-        <section id="presentation">
+
+    <!-- Hero Section (Header large) -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Mathéo Colombel</h1>
+            <p>Ingénieur Projet | Sergent-Chef Pompier Volontaire</p>
+        </div>
+    </section>
+
+    <!-- Section Présentation -->
+    <section id="presentation">
+        <div class="container">
             <h2>Présentation</h2>
-            <p>Je suis Mathéo Colombel, un ingénieur passionné par la gestion de projets industriels et les innovations techniques. Avec mon expérience en tant que pompier volontaire, j’ai développé des compétences en leadership et gestion d’équipe.</p>
-        </section>
-        <section id="competences">
+            <p>Je suis Mathéo Colombel, un ingénieur passionné par la gestion de projets industriels et l'innovation technique. Avec une expérience solide en management et en gestion d'équipes, j’ai également un fort engagement en tant que pompier volontaire, ce qui m’a appris à être réactif et à prendre des décisions sous pression.</p>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences">
+        <div class="container">
             <h2>Compétences</h2>
-            <div class="skills">
-                <div class="skill">
-                    <h3>Gestion de Projet</h3>
-                    <p>Planification et suivi de projets techniques.</p>
+            <div class="competences-list">
+                <div class="competence">
+                    <h3>Gestion de projet</h3>
+                    <p>Planification et suivi de projets techniques, en respectant les délais et budgets.</p>
                 </div>
-                <div class="skill">
-                    <h3>Conception Technique</h3>
-                    <p>Développement de solutions sur mesure.</p>
-                </div>
-                <div class="skill">
+                <div class="competence">
                     <h3>Leadership</h3>
-                    <p>Coordination et motivation d’équipes multidisciplinaires.</p>
+                    <p>Gestion d'équipes multidisciplinaires, avec une forte capacité à fédérer et motiver.</p>
+                </div>
+                <div class="competence">
+                    <h3>Conception Technique</h3>
+                    <p>Développement et conception de solutions techniques sur mesure pour les entreprises.</p>
                 </div>
             </div>
-        </section>
-        <section id="projets">
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets">
+        <div class="container">
             <h2>Projets</h2>
-            <div class="project">
-                <h3>Tables de Vérification 2.0</h3>
-                <p>Développement et mise en œuvre de solutions pour le secteur finition chez Goodyear à Amiens.</p>
+            <div class="projets-list">
+                <div class="projet">
+                    <h3>Tables de Vérification 2.0</h3>
+                    <p>Développement et mise en œuvre de solutions pour le secteur finition chez Goodyear à Amiens.</p>
+                </div>
+                <div class="projet">
+                    <h3>Optimisation des Processus Industriels</h3>
+                    <p>Réduction des coûts et amélioration des processus de production au sein de l’industrie automobile.</p>
+                </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
     <footer id="contact">
-        <h2>Contact</h2>
-        <p>Email : <a href="mailto:matheo@example.com">matheo@example.com</a></p>
-        <p>© 2024 Mathéo Colombel</p>
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email : <a href="mailto:matheo@example.com">matheo@example.com</a></p>
+            <p>© 2024 Mathéo Colombel</p>
+        </div>
     </footer>
+
 </body>
 </html>
