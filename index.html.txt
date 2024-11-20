@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathéo Colombel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#presentation">Présentation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h1>Mathéo Colombel</h1>
+        <p>Sergent-Chef & Ingénieur Projet</p>
+    </section>
+    <section id="presentation">
+        <h2>Présentation</h2>
+        <p>Bienvenue sur mon site ! Je suis Mathéo Colombel, pompier volontaire et ingénieur spécialisé en gestion de projets industriels. Passionné par l’innovation et les challenges techniques, je suis toujours à la recherche de nouvelles opportunités pour repousser les limites.</p>
+    </section>
+    <section id="competences">
+        <h2>Compétences</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Gestion de projet</h3>
+                <p>Planification, suivi, et livraison des projets industriels.</p>
+            </div>
+            <div class="skill">
+                <h3>Technique</h3>
+                <p>Conception de solutions techniques adaptées aux besoins clients.</p>
+            </div>
+            <div class="skill">
+                <h3>Leadership</h3>
+                <p>Management d'équipes avec rigueur et engagement.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projets">
+        <h2>Projets</h2>
+        <div class="project">
+            <h3>Tables de vérification 2.0</h3>
+            <p>Conception et mise en place de 4 tables de vérification pour le secteur finition chez Goodyear à Amiens.</p>
+        </div>
+    </section>
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Pour me joindre : <a href="mailto:mathéo@example.com">mathéo@example.com</a></p>
+        <p>© 2024 Mathéo Colombel</p>
+    </footer>
+</body>
+</html>
